@@ -1,0 +1,36 @@
+.app {
+    width: 70%;
+    margin: 20px auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    border-radius: 17px;
+
+    .left {
+        background-color: #6d2cc98c;
+        border-radius: 17px 0 0 17px;
+
+        .element {
+            padding: 20px 0;
+            margin: 20px 0;
+            text-align: center;
+            background-color: aquamarine;
+            user-select: none;
+            font-size: 22px;
+            font-weight: 600;
+            transition: .2s linear;
+
+            &:hover {
+                background-color: #000000;
+                color: #fff;
+            }
+        }
+
+    }
+    .right {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
